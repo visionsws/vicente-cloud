@@ -11,4 +11,9 @@ public class HelloController {
         return "11kdfjskldf";
     }
 
+    @RequestMapping(value = "aac")
+    public String getPhone(){
+        return "aaaaaa";
+    }
+
 }
