@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloController {
 
-    @RequestMapping(value = "aaa")
+    @RequestMapping(value = "aaabbb")
     public String getmobile(){
         return "11kdfjskldf";
     }
