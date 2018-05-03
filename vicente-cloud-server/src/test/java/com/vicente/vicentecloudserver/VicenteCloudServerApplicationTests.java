@@ -1,4 +1,4 @@
-package com.vicente.vicentecloud;
+package com.vicente.vicentecloudserver;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class VicenteCloudApplicationTests {
+public class VicenteCloudServerApplicationTests {
 
 	@Test
 	public void contextLoads() {
