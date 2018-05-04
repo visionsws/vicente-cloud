@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.vicente</groupId>
-	<artifactId>vicente-cloud-client</artifactId>
+	<artifactId>vicente-cloud-consumer</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>vicente-cloud-client</name>
+	<name>vicente-cloud-consumer</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>
@@ -62,17 +62,6 @@
 			</plugin>
 		</plugins>
 	</build>
-
-	<repositories>
-		<repository>
-			<id>spring-milestones</id>
-			<name>Spring Milestones</name>
-			<url>https://repo.spring.io/milestone</url>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-		</repository>
-	</repositories>
 
 
 </project>
