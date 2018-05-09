@@ -7,5 +7,12 @@ server:
 spring:
   application:
     name: vice-zuul
-
+zuul:
+  routes:
+    client-hi:
+      path: /hhhi/**
+      serviceId: service-hi
+    consumer:
+          path: /consu/**
+          serviceId: vice-consumer
 
