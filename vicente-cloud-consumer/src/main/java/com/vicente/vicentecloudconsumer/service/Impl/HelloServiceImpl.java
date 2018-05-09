@@ -16,7 +16,7 @@ public class HelloServiceImpl implements HelloService {
     private RestTemplate restTemplate;
 
     public String hiService(String name) {
-        return restTemplate.getForObject("http://localhost:8762/hi?name="+name,String.class);
+        return restTemplate.getForObject("http://service-hi/hi?name="+name,String.class);
     }
 
 }
